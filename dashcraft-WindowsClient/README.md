@@ -54,7 +54,7 @@ pip install paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple
 # 公网PHP服务器配置
 SERVER_HOST = "你的公网域名/IP"  # 替换为实际服务器地址
 SERVER_PORT = 9501              # 与PHP端config.php一致
-SECRET_KEY = "7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1"  # 与PHP端一致
+SECRET_KEY = "123456"  # 与PHP端一致
 
 # MC窗口配置（网易版默认名称，可根据实际调整）
 MC_WINDOW_NAME = "我的世界"
