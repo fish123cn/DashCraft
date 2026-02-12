@@ -93,11 +93,7 @@ pip install pyautogui pygetwindow pillow paddleocr opencv-python numpy
 pip install paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-### 2. 执行 mc_client.py
-```cmd
-python mc_client.py
-```
-### 3. 客户端配置与运行步骤
+### 2. 客户端配置与运行步骤
 1. **配置修改**：
    - 打开`mc_client.py`，修改`SERVER_HOST`为PHP服务器公网IP/域名；
    - 确认`SERVER_PORT`（9501）、`SECRET_KEY`与PHP端一致；
@@ -148,3 +144,4 @@ python mc_client.py
 - 支持多客户端：修改PHP端Socket服务，实现多客户端管理；
 
 - 前端优化：增加指令历史记录、玩家名单可视化等功能。
+
