@@ -1,0 +1,17 @@
+# MC远程控制客户端依赖库
+# 核心依赖
+pyautogui==0.9.54
+pygetwindow==0.0.9
+Pillow==9.5.0
+paddleocr==2.7.0.3
+opencv-python==4.7.0.72
+numpy==1.24.3
+
+# 可选依赖（提升OCR性能）
+paddlepaddle==2.4.2
+
+# 说明：
+# 1. 安装命令：pip install -r requirements.txt
+# 2. 若需要中文OCR更精准，可使用国内源安装paddlepaddle：
+#    pip install paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 3. 确保以管理员身份运行CMD执行安装命令
