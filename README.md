@@ -80,7 +80,7 @@ graph LR
    netstat -tulpn | grep 9501
    ```
 4. **权限配置**：
-   - 给`/tmp`目录赋权（确保PHP能写入临时文件）：`chmod 777 /tmp`；
+   - 给`/tmp`目录赋权（确保PHP能写入临时文件，如果MySQL服务正常就不用）：`chmod 777 /tmp`；
    - 确保PHP进程对网页目录有读写权限。
 
 ## 三、Windows客户端（Python）
@@ -144,4 +144,5 @@ pip install paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple
 - 支持多客户端：修改PHP端Socket服务，实现多客户端管理；
 
 - 前端优化：增加指令历史记录、玩家名单可视化等功能。
+
 
